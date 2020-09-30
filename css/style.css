@@ -11,6 +11,11 @@ body {
     /*border-radius: 50%;*/
     margin: 0 auto;   
     font-size: 0%;
+     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    /* делал дома, поэтому 3 последние строчки такие (мы их не проходили, с инлайн блоком почему то не получалось) */
 
 }
 
@@ -22,7 +27,6 @@ body {
     border: 5px solid black;
     box-sizing: border-box;  
     /* display: inline-block;  */
-    display: inline-block;
 }
 
 
